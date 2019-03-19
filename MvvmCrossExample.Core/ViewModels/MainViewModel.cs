@@ -4,7 +4,7 @@ using MvvmCross.ViewModels;
 
 namespace MvvmCrossExample.Core.ViewModels
 {
-    public class HomeViewModel : MvxViewModel
+    public class MainViewModel : MvxViewModel
     {
         public override void Prepare()
         {

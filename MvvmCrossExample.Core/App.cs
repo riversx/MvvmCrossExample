@@ -12,7 +12,7 @@ namespace MvvmCrossExample.Core
                 .EndingWith("Service")
                 .AsInterfaces()
                 .RegisterAsLazySingleton();
-            RegisterAppStart<HomeViewModel>();
+            RegisterAppStart<MainViewModel>();
         }
     }
 }

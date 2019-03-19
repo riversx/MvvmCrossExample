@@ -1,34 +1,24 @@
 ﻿using System;
-
-using AppKit;
 using Foundation;
+using MvvmCross.Binding.BindingContext;
+using MvvmCross.Platforms.Mac.Views;
+using MvvmCrossExample.Core.ViewModels;
 
 namespace MvvmCrossExample.Mac
 {
-    public partial class ViewController : NSViewController
+    [MvxFromStoryboard("Main")]
+    public partial class ViewController : MvxViewController<MainViewModel>
     {
-        public ViewController(IntPtr handle) : base(handle)
-        {
-        }
+        public ViewController(IntPtr handle) : base(handle) { }
 
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
-
-            // Do any additional setup after loading the view.
+            var set = this.CreateBindingSet<ViewController, MainViewModel>();
+            set.Bind(TextField).To(vm => vm.Text);
+            set.Bind(Button).To(vm => vm.ResetTextCommand);
+            set.Apply();
         }
 
-        public override NSObject RepresentedObject
-        {
-            get
-            {
-                return base.RepresentedObject;
-            }
-            set
-            {
-                base.RepresentedObject = value;
-                // Update the view, if already loaded.
-            }
-        }
     }
 }

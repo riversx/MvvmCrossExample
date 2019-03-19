@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCrossExample.Mac", "MvvmCrossExample.Mac\MvvmCrossExample.Mac.csproj", "{C0D11AC8-C4F3-460F-95C1-A81A77FBAC55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCrossExample.Core", "MvvmCrossExample.Core\MvvmCrossExample.Core.csproj", "{21A93C7A-47EA-45FA-8701-794448671F87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0D11AC8-C4F3-460F-95C1-A81A77FBAC55}.Debug|x86.ActiveCfg = Debug|x86
+		{C0D11AC8-C4F3-460F-95C1-A81A77FBAC55}.Debug|x86.Build.0 = Debug|x86
+		{C0D11AC8-C4F3-460F-95C1-A81A77FBAC55}.Release|x86.ActiveCfg = Release|x86
+		{C0D11AC8-C4F3-460F-95C1-A81A77FBAC55}.Release|x86.Build.0 = Release|x86
+		{21A93C7A-47EA-45FA-8701-794448671F87}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{21A93C7A-47EA-45FA-8701-794448671F87}.Debug|x86.Build.0 = Debug|Any CPU
+		{21A93C7A-47EA-45FA-8701-794448671F87}.Release|x86.ActiveCfg = Release|Any CPU
+		{21A93C7A-47EA-45FA-8701-794448671F87}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

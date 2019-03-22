@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvvmCrossExample.Core", "MvvmCrossExample.Core\MvvmCrossExample.Core.csproj", "{A733650B-6295-4A6A-8955-86502AA700DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvvmCrossExample.Wpf", "MvvmCrossExample.Wpf\MvvmCrossExample.Wpf.csproj", "{53A2331F-C822-496A-A7F5-80F4BF815E77}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A733650B-6295-4A6A-8955-86502AA700DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A733650B-6295-4A6A-8955-86502AA700DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A733650B-6295-4A6A-8955-86502AA700DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A733650B-6295-4A6A-8955-86502AA700DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53A2331F-C822-496A-A7F5-80F4BF815E77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A2331F-C822-496A-A7F5-80F4BF815E77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A2331F-C822-496A-A7F5-80F4BF815E77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53A2331F-C822-496A-A7F5-80F4BF815E77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14C84E03-158F-45D2-A929-28F376BCA87F}
+	EndGlobalSection
+EndGlobal
